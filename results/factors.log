@@ -1,0 +1,10 @@
+Powersupply  season                                 M=  4  rand d_pool +0.71 d_feat -0.26 | chrono d_pool +0.95 d_feat -0.33  444s
+Powersupply  non-working day                        M=  2  rand d_pool +1.04 d_feat +0.14 | chrono d_pool +1.18 d_feat +0.23  308s
+Powersupply  August shutdown                        M=  2  rand d_pool +0.57 d_feat +0.13 | chrono d_pool +0.39 d_feat +0.06  214s
+Powersupply  non-working x August                   M=  4  rand d_pool +1.79 d_feat +0.37 | chrono d_pool +1.68 d_feat +0.32  191s
+Powersupply  season x non-working (L2)              M=  8  rand d_pool +2.15 d_feat +0.19 | chrono d_pool +2.25 d_feat +0.25  468s
+Powersupply  season x non-working x August (L3)     M= 10  rand d_pool +2.83 d_feat +0.33 | chrono d_pool +2.78 d_feat +0.25  542s
+Powersupply  month x non-working (too fine)         M= 24  rand d_pool +3.37 d_feat +0.29 | chrono d_pool +2.83 d_feat +0.15  749s
+Powersupply  random, shape of L3 (draw 1)           M= 10  rand d_pool -0.44 d_feat -0.46 | chrono d_pool -0.56 d_feat -0.58  396s
+Powersupply  random, shape of L3 (draw 2)           M= 10  rand d_pool -0.36 d_feat -0.42 | chrono d_pool -0.32 d_feat -0.41  422s
+Powersupply  random, shape of L3 (draw 3)           M= 10  rand d_pool -0.25 d_feat -0.38 | chrono d_pool -0.28 d_feat -0.38  349s

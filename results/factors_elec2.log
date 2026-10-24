@@ -1,0 +1,10 @@
+Elec2        non-working day (L1)                   M=  2  rand d_pool +1.00 d_feat +0.56 | chrono d_pool -0.75 d_feat -0.42  297s
+Elec2        season                                 M=  3  rand d_pool +1.64 d_feat +0.40 | chrono d_pool -0.34 d_feat -1.36  299s
+Elec2        public holiday                         M=  2  rand d_pool +0.13 d_feat +0.03 | chrono d_pool -0.16 d_feat +0.76  296s
+Elec2        non-working x season (L2)              M=  6  rand d_pool +2.91 d_feat +1.07 | chrono d_pool +0.60 d_feat -0.82  392s
+Elec2        non-working x season x holiday (L3)    M=  9  rand d_pool +3.13 d_feat +1.21 | chrono d_pool +0.62 d_feat -0.62  421s
+Elec2        month x non-working (too fine)         M= 24  rand d_pool +5.41 d_feat +2.55 | chrono d_pool -1.18 d_feat -0.46  395s
+Elec2        random, shape of L3 (draw 1)           M=  9  rand d_pool +1.37 d_feat +0.93 | chrono d_pool -0.84 d_feat +0.10  423s
+Elec2        random, shape of L3 (draw 2)           M=  9  rand d_pool +1.70 d_feat +1.39 | chrono d_pool +0.08 d_feat +0.38  365s
+Elec2        random, shape of L3 (draw 3)           M=  9  rand d_pool +1.76 d_feat +1.63 | chrono d_pool -0.52 d_feat +0.45  205s
+saved ../results/factors_Elec2.json

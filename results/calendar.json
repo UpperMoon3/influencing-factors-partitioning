@@ -1,0 +1,54 @@
+{
+ "elec2": {
+  "records": 45312,
+  "days": 944,
+  "first": "1996-05-07",
+  "last": "1998-12-06",
+  "dow_match": 1.0,
+  "dow_match_wrong_offsets": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "powersupply": {
+  "records": 29928,
+  "days": 1247,
+  "first": "1995-01-01",
+  "last": "1998-05-31",
+  "weekday_mean": 368.0612734082397,
+  "weekend_mean": 293.0044000933707,
+  "holiday_z": -1.191929297109589,
+  "ordinary_weekday_z": 0.44799997883157816,
+  "august_mean": 250.04551971326165,
+  "january_mean": 386.7823924731183,
+  "ferragosto_rank": [
+   3,
+   5,
+   14
+  ],
+  "phase_contrast": [
+   8.67280028226503,
+   -31.86854452767375,
+   -34.99589576844181,
+   -34.92480434021866,
+   -25.783003608179172,
+   43.64274364240083,
+   75.056873314869
+  ],
+  "phase_selected": 6,
+  "holiday_test": {
+   "U": 1796.5,
+   "p": 7.620389308444438e-21,
+   "n_holiday": 38
+  }
+ },
+ "defects": {
+  "powersupply_trailing_comma_line": 22211,
+  "powersupply_corrupt_hour_index": 24968,
+  "elec2_date_attribute_collisions": 11
+ }
+}

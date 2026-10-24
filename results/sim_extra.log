@@ -1,0 +1,25 @@
+A p= 200 M= 2 n/part= 100 pool 86.45 true 91.38 part 91.38 pmin50 91.38 pmin100 91.38
+A p= 200 M= 4 n/part=  50 pool 86.62 true 91.34 part 91.10 pmin50 91.19 pmin100 91.34
+A p= 200 M= 8 n/part=  25 pool 86.67 true 91.43 part 88.83 pmin50 91.43 pmin100 91.43
+A p= 200 M=16 n/part=  12 pool 86.68 true 91.39 part 77.91 pmin50 91.39 pmin100 91.39
+A p= 200 M=32 n/part=   6 pool 86.54 true 91.39 part 65.53 pmin50 91.39 pmin100 91.39
+A p=1000 M= 2 n/part= 500 pool 86.70 true 91.59 part 91.59 pmin50 91.59 pmin100 91.59
+A p=1000 M= 4 n/part= 250 pool 86.71 true 91.55 part 91.48 pmin50 91.48 pmin100 91.48
+A p=1000 M= 8 n/part= 125 pool 86.75 true 91.59 part 91.45 pmin50 91.45 pmin100 91.45
+A p=1000 M=16 n/part=  62 pool 86.74 true 91.60 part 91.27 pmin50 91.30 pmin100 91.60
+A p=1000 M=32 n/part=  31 pool 86.62 true 91.52 part 90.21 pmin50 91.52 pmin100 91.52
+A p=4000 M= 2 n/part=2000 pool 86.55 true 91.56 part 91.56 pmin50 91.56 pmin100 91.56
+A p=4000 M= 4 n/part=1000 pool 86.62 true 91.63 part 91.61 pmin50 91.61 pmin100 91.61
+A p=4000 M= 8 n/part= 500 pool 86.60 true 91.65 part 91.59 pmin50 91.59 pmin100 91.59
+A p=4000 M=16 n/part= 250 pool 86.68 true 91.66 part 91.59 pmin50 91.59 pmin100 91.59
+A p=4000 M=32 n/part= 125 pool 86.75 true 91.71 part 91.52 pmin50 91.52 pmin100 91.53
+B 50/300 configurations
+B 100/300 configurations
+B 150/300 configurations
+B 200/300 configurations
+B 250/300 configurations
+B 300/300 configurations
+B dswc {'rho': 0.852, 'p': 0.0, 'precision': 0.901, 'recall': 0.966, 'accuracy': 0.877, 'n': 300}
+B gap {'rho': 0.934, 'p': 0.0, 'precision': 0.995, 'recall': 0.991, 'accuracy': 0.986, 'n': 216}
+B always {'precision': 0.883, 'recall': 1.0, 'accuracy': 0.883}
+saved ../results/sim_extra.json
