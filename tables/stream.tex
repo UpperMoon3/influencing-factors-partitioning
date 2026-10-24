@@ -1,0 +1,25 @@
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Policy} & \textbf{LDA} & \textbf{QDA} & \textbf{NB} & \textbf{KNN}\\
+\midrule
+\multicolumn{5}{l}{\textit{Powersupply}, $L_3$, $M=10$, 40 months}\\
+Pooled & 73.69\phantom{\,$^{*}$} & 73.80\,$^{*}$ & 73.11\,$^{*}$ & 72.87\,$^{*}$\\
+Pooled + regime feature & \textbf{75.10}\phantom{\,$^{*}$} & 75.08\phantom{\,$^{*}$} & 73.11\,$^{*}$ & 75.90\phantom{\,$^{*}$}\\
+Sliding window & 73.41\phantom{\,$^{*}$} & 73.38\,$^{*}$ & 72.12\,$^{*}$ & 73.10\,$^{*}$\\
+DDM & 73.04\phantom{\,$^{*}$} & 73.51\,$^{*}$ & 73.01\,$^{*}$ & 72.97\,$^{*}$\\
+ADWIN & 72.55\,$^{*}$ & 72.79\,$^{*}$ & 72.68\,$^{*}$ & 72.25\,$^{*}$\\
+\textbf{Partitioned (proposed)} & 74.88\phantom{\,$^{*}$} & 75.48\phantom{\,$^{*}$} & 75.75\phantom{\,$^{*}$} & \textbf{75.97}\phantom{\,$^{*}$}\\
+Partitioned + ADWIN & 75.06\phantom{\,$^{*}$} & \textbf{75.71}\phantom{\,$^{*}$} & \textbf{75.86}\phantom{\,$^{*}$} & 75.90\phantom{\,$^{*}$}\\
+\multicolumn{5}{l}{Incremental learners: ARF 72.02 \quad ARF + feature 72.74 \quad HAT 74.27}\\
+\midrule
+\multicolumn{5}{l}{\textit{Elec2}, $L_3$, $M=9$, 30 months}\\
+Pooled & 64.13\phantom{\,$^{*}$} & 63.38\phantom{\,$^{*}$} & 64.24\phantom{\,$^{*}$} & 68.51\phantom{\,$^{*}$}\\
+Pooled + regime feature & 65.68\phantom{\,$^{*}$} & 62.26\,$^{*}$ & 64.11\phantom{\,$^{*}$} & 69.08\phantom{\,$^{*}$}\\
+Sliding window & 67.99\phantom{\,$^{*}$} & 65.58\phantom{\,$^{*}$} & 66.37\phantom{\,$^{*}$} & 70.37\phantom{\,$^{*}$}\\
+DDM & 67.89\phantom{\,$^{*}$} & 63.17\phantom{\,$^{*}$} & 67.16\phantom{\,$^{*}$} & 70.21\phantom{\,$^{*}$}\\
+ADWIN & \textbf{68.11}\phantom{\,$^{*}$} & \textbf{65.79}\phantom{\,$^{*}$} & \textbf{67.55}\phantom{\,$^{*}$} & \textbf{70.59}\phantom{\,$^{*}$}\\
+\textbf{Partitioned (proposed)} & 65.93\phantom{\,$^{*}$} & 65.00\phantom{\,$^{*}$} & 65.86\phantom{\,$^{*}$} & 70.11\phantom{\,$^{*}$}\\
+Partitioned + ADWIN & 65.80\phantom{\,$^{*}$} & 65.02\phantom{\,$^{*}$} & 67.01\phantom{\,$^{*}$} & 70.55\phantom{\,$^{*}$}\\
+\multicolumn{5}{l}{Incremental learners: ARF 72.84 \quad ARF + feature 72.78 \quad HAT 70.46}\\
+\bottomrule
+\end{tabular}
