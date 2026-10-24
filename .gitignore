@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/*.arff
+data/*.dat
+.DS_Store
